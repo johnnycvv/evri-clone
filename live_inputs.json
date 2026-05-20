@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800;900&display=swap');
+                                #onetrust-consent-sdk,
+                                #teleports,
+                                iframe {
+                                    display: none!important;
+                                }
+                                
+                                html,
+                                body {
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                
+                                .relic-hero {
+                                    max-width: 1180px;
+                                    margin: 0 auto;
+                                    display: flex;
+                                    gap: 32px;
+                                    align-items: flex-start;
+                                    flex-wrap: nowrap;
+                                    color: #fff;
+                                    font-family: 'Hanken Grotesk', 'Inter', 'Segoe UI', Arial, sans-serif;
+                                }
+                                
+                                .relic-card,
+                                .relic-card * {
+                                    font-family: 'Hanken Grotesk', 'Inter', 'Segoe UI', Arial, sans-serif;
+                                }
+                                
+                                .relic-left {
+                                    flex: 1 1 auto;
+                                    min-width: 0;
+                                    padding-top: 24px;
+                                }
+                                
+                                .relic-logo {
+                                    margin: 0 0 16px;
+                                    line-height: 0;
+                                }
+                                
+                                .relic-logo svg {
+                                    width: 100%;
+                                    max-width: 420px;
+                                    height: auto;
+                                    display: block;
+                                }
+                                
+                                .relic-sub {
+                                    font-size: 34px;
+                                    font-weight: 700;
+                                    margin: 0;
+                                    color: #fff;
+                                }
+                                
+                                .relic-card {
+                                    flex: 0 0 360px;
+                                    background: #fff;
+                                    color: #0d1b4c;
+                                    border-radius: 6px;
+                                    box-shadow: 0 12px 40px rgba(0, 0, 0, .15);
+                                    overflow: hidden;
+                                }
+                                
+                                .relic-tabs {
+                                    display: flex;
+                                    background: #dce8f4;
+                                }
+                                
+                                .relic-tab {
+                                    flex: 1;
+                                    text-align: center;
+                                    padding: 14px 0;
+                                    font-weight: 700;
+                                    font-size: 13px;
+                                    cursor: pointer;
+                                    color: #5a6b85;
+                                    background: #dce8f4;
+                                    border: none;
+                                    font-family: inherit;
+                                }
+                                
+                                .relic-tab.active {
+                                    color: #0d1b4c;
+                                    background: #fff;
+                                    border-bottom: 3px solid #0d1b4c;
+                                }
+                                
+                                .relic-body {
+                                    padding: 14px 22px 22px;
+                                }
+                                
+                                .relic-card form,
+                                .relic-card {
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                
+                                .relic-card .relic-body {
+                                    padding: 14px 22px 22px;
+                                }
+                                
+                                .relic-card h2.relic-h2 {
+                                    font-size: 26px;
+                                    font-weight: 800;
+                                    margin: 0 0 4px!important;
+                                    padding: 0;
+                                    color: #0d1b4c;
+                                    line-height: 1.15;
+                                }
+                                
+                                .relic-card .relic-p {
+                                    font-size: 12px!important;
+                                    margin: 0 0 10px!important;
+                                    padding: 0!important;
+                                    color: #0d1b4c;
+                                    line-height: 1.3;
+                                }
+                                
+                                .relic-field {
+                                    margin-bottom: 12px;
+                                }
+                                
+                                .relic-row {
+                                    display: flex;
+                                    gap: 10px;
+                                }
+                                
+                                .relic-row .relic-field {
+                                    flex: 1;
+                                }
+                                
+                                .relic-label {
+                                    display: block;
+                                    font-size: 11px;
+                                    font-weight: 700;
+                                    margin-bottom: 5px;
+                                    color: #0d1b4c;
+                                }
+                                
+                                .relic-input {
+                                    width: 100%;
+                                    box-sizing: border-box;
+                                    padding: 9px 10px;
+                                    border: 1px solid #c9d2e3;
+                                    border-radius: 4px;
+                                    font-size: 13px;
+                                    font-family: inherit;
+                                    color: #0d1b4c;
+                                    outline: none;
+                                }
+                                
+                                .relic-input:focus {
+                                    border-color: #0070d4;
+                                    box-shadow: 0 0 0 2px rgba(0, 112, 212, .15);
+                                }
+                                
+                                .relic-input::placeholder {
+                                    color: #a8b3cc;
+                                }
+                                
+                                .relic-card .relic-fee {
+                                    font-size: 22px!important;
+                                    font-weight: 800;
+                                    color: #0d1b4c;
+                                    margin: 10px 0 4px!important;
+                                    padding: 0;
+                                    line-height: 1.2;
+                                }
+                                
+                                .relic-next {
+                                    margin-top: 14px;
+                                    background: #0d1b4c;
+                                    color: #3ad3c7;
+                                    border: none;
+                                    border-radius: 999px;
+                                    padding: 10px 22px;
+                                    font-weight: 800;
+                                    font-size: 13px;
+                                    cursor: pointer;
+                                    display: inline-flex;
+                                    align-items: center;
+                                    gap: 8px;
+                                    font-family: inherit;
+                                }
+                                
+                                .relic-next:hover {
+                                    background: #142464;
+                                }
+                                
+                                .relic-next svg {
+                                    width: 14px;
+                                    height: 14px;
+                                }
+                                
+                                .relic-row--actions {
+                                    align-items: center;
+                                    margin-top: 6px;
+                                }
+                                
+                                .relic-row--actions .relic-next {
+                                    flex: 1;
+                                    justify-content: center;
+                                }
+                                
+                                .relic-next--secondary {
+                                    background: #fff !important;
+                                    color: #0d1b4c !important;
+                                    border: 2px solid #0d1b4c !important;
+                                }
+                                
+                                .relic-next--secondary:hover {
+                                    background: #f0f4fa !important;
+                                }
+                                
+                                @media (max-width:680px) {
+                                    .relic-hero {
+                                        flex-wrap: wrap;
+                                        gap: 24px;
+                                    }
+                                    .relic-sub {
+                                        font-size: 24px;
+                                    }
+                                    .relic-card {
+                                        flex: 1 1 100%;
+                                    }
+                                }
